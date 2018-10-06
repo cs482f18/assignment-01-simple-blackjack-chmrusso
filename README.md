@@ -1,3 +1,5 @@
+VIDEO DEMO LINK: https://youtu.be/_BbtK8uG-Hc
+
 ## Assignment 01: A Simplified Blackjack Game
 ## Assigned: Thurs, Sep 13, 2018
 ## Due: Design – Thurs, Sep 27, 2018 5pm
