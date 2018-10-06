@@ -1,4 +1,4 @@
-VIDEO DEMO LINK: https://youtu.be/_BbtK8uG-Hc
+VIDEO DEMO LINK: https://www.youtube.com/watch?v=N65XSVCfYP0&feature=youtu.be
 
 ## Assignment 01: A Simplified Blackjack Game
 ## Assigned: Thurs, Sep 13, 2018
