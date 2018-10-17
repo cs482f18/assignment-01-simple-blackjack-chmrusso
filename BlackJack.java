@@ -4,7 +4,8 @@ import android.util.Log;
 
 import java.util.ArrayList;
 
-/** A Model Class to manage the mechanics and logic within the BlackJack game.
+/**
+ * A Model Class to manage the mechanics and logic within the BlackJack game.
  *
  * @author Christina Russo
  * @version 1.0 10/6/18
@@ -74,7 +75,8 @@ public class BlackJack {
     }
 
 
-    /**This method is used each time the User or Dealer chooses to hit and draws a card from the Deck.
+    /**
+     * This method is used each time the User or Dealer chooses to hit and draws a card from the Deck.
      *
      * @return the cardName of the card drawn. (This is used to help the main Controller display information about the Model)
      */
@@ -213,7 +215,8 @@ public class BlackJack {
         return -1;
     }
 
-    /**This method checks to see if at anytime within the BlackJack game a winner is found.
+    /**
+     * This method checks to see if at anytime within the BlackJack game a winner is found.
      *
      * @return A String value representing which player won. Returns an empty String is there isn't a winner yet. (This is used to help the main Controller display information about the Model)
      */
@@ -242,7 +245,8 @@ public class BlackJack {
         }
     }
 
-    /**This method is used to actively check if either player has achieved Black Jack.
+    /**
+     * This method is used to actively check if either player has achieved Black Jack.
      *
      * @return A String value that represents which play got Black Jack. Returns an empty String if neither Player has yet. (This is used to help the main Controller display information about the Model)
      */
@@ -273,7 +277,8 @@ public class BlackJack {
         }
     }
 
-    /** This method is used to reset all values within the BlackJack game, in preparation for a new game to be played.
+    /** 
+     * This method is used to reset all values within the BlackJack game, in preparation for a new game to be played.
      *
      */
     public void reset(){
