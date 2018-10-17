@@ -17,7 +17,8 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     /**Instanciate which game is being played*/
-    public BlackJack BJGame;
+    
+    public BlackJack BJGame; // It is a strong convention to use camelCasing for variables and object refernces, i.e., bjGame
 
     /**This method is called once the android app is opened and ultimately starts the game.
      *
@@ -245,6 +246,8 @@ public class MainActivity extends AppCompatActivity {
             hitButton.setEnabled(false);
             stopButton.setEnabled(false);
         }
+        
+        // Do put in some inline comments
         if( BJGame.checkBlackJack().equals("BlackJack!")){
             TextView display =  findViewById(R.id.display);
             display.setText(BJGame.checkBlackJack());
